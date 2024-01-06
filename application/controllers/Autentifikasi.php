@@ -47,15 +47,15 @@ class Autentifikasi extends CI_Controller
                         }
                     } else {
                         $this->session->set_flashdata('pesan', '<div class="alert alert-danger alert-message" role="alert">Password salah!!</div>');
-                        redirect('autentifikasi');
+                        redirect('Autentifikasi');
                     }
                 } else {
                     $this->session->set_flashdata('pesan', '<div class="alert alert-danger alert-message" role="alert">User belum diaktifasi!!</div>');
-                    redirect('autentifikasi');
+                    redirect('Autentifikasi');
                 }
             } else {
                 $this->session->set_flashdata('pesan', '<div class="alert alert-danger alert-message" role="alert">Email tidak terdaftar!!</div>');
-                redirect('autentifikasi');
+                redirect('Autentifikasi');
          }
      }
      public function blok()
