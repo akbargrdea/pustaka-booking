@@ -1,4 +1,4 @@
-<html>
+    <html>
 
 <head>
     <title>Form Input Matakuliah</title>
@@ -26,14 +26,14 @@
                 </tr>
                 <tr>
                     <th>Nama MTK</th>
-                    <td>:</td>
+                    <th>:</th>
                     <td>
                         <input type="text" name="nama" id="nama">
                     </td>
                 </tr>
                 <tr>
                     <th>SKS</th>
-                    <td>:</td>
+                    <th>:</th>
                     <td>
                         <select name="sks" id="sks">
                             <option value = "">Pilih SKS</option>
